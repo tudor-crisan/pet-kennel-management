@@ -36,7 +36,7 @@ $timeout(function(){
                             $scope.getPetInfoDetails({}, 'edit');
                             $rootScope.revealModal('#cpModal');
                             $scope.client_mod = {
-                                first_name: 'Todorescu',
+                                first_name: 'Crisan',
                                 last_name: 'Tudor',
                                 contact_phone: '(123) 456-7890'
                             };

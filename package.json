@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "KM-API",
-  "repository": "https://bitbucket.org/todorescutudor/km-api",
+  "repository": "",
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",

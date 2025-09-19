@@ -954,7 +954,7 @@ CREATE TABLE IF NOT EXISTS `retail_vendors` (
 --
 
 INSERT INTO `retail_vendors` (`id`, `status_id`, `name`, `account`, `contact`, `alt_contact`, `street`, `city`, `state`, `zip`, `phone`, `fax`, `alt_phone`, `other`, `terms`, `comments`, `website`, `email`) VALUES
-(1, 1, 'TODORESCU LTD', '49123987', '(452) 123-4567', '', 'str. Tudor Vladimirescu nr. 62', 'Alba Iulia', 'AB', '510167', '0740815174', '', '', '', 'Niste termeni si conditii', 'Niste comentarii', 'http://www.google.com', 'fishbonezul@yahoo.com'),
+(1, 1, 'CRISAN LTD', '49123987', '(452) 123-4567', '', '', '', 'AB', '', '', '', '', '', 'Niste termeni si conditii', 'Niste comentarii', 'http://www.google.com', 'fishbonezul@yahoo.com'),
 (2, 1, 'BOLCA DORIAN SERVICES', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
@@ -1039,7 +1039,7 @@ CREATE TABLE IF NOT EXISTS `trainers` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 INSERT INTO `trainers` (`id`, `status_id`, `image_id`, `first_name`, `last_name`, `phone`, `cell`, `email`, `street`, `city`, `state`, `zip`) VALUES
-(1, 1, 0, 'Todorescu', 'Tudor', '0740815174', '0325123156', 'todorescu.tudor@example.com', 'T. Alexandri nr. 62', 'Alba Iulia', 'Alba', '510167');
+(1, 1, 0, 'Crisan', 'Tudor', '', '', '', '', '', '', '');
 
 
 
@@ -1065,7 +1065,7 @@ CREATE TABLE IF NOT EXISTS `trainers` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 INSERT INTO `trainers` (`id`, `status_id`, `image_id`, `first_name`, `last_name`, `phone`, `cell`, `email`, `street`, `city`, `state`, `zip`) VALUES
-(1, 1, 112, 'Todorescu', 'Tudor', '(123) 456-7890', '(123) 456-7890', 'todorescu.tudor@example.com', 'T. Alexandri nr. 62', 'Alba Iuliaa', 'Alba', '510167\r\n'),
+(1, 1, 112, '', 'Tudor', '(123) 456-7890', '(123) 456-7890', 'tudor@example.com', '', '', '', '\r\n'),
 (2, 1, 0, 'Dorian', 'Bolca', '', '', '', '', '', '', '');
 
 CREATE TABLE IF NOT EXISTS `training_groups` (

@@ -1,7 +1,7 @@
 
 /**
  * @desc: object for reusable directives
- * @auth: Todorescu Tudor
+ * @auth: Crisan Tudor
  * @date: 2014-06-20
  * @type {ngKm|*|{}}
  */

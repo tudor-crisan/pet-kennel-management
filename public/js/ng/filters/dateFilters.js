@@ -1,7 +1,7 @@
 
 /**
  * @desc: object for reusable date filters
- * @auth: Todorescu Tudor
+ * @auth: Crisan Tudor
  * @date: 2014-12-20
  * @type {ngKm|*|{}}
  */
